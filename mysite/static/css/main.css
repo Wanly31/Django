@@ -1,0 +1,87 @@
+/* Фонове оформлення сторінки */
+body {
+    background-color: #f5f5f5; /* світло-сірий фон */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Контейнер блогу */
+.container {
+    background-color: #fff; /* білий фон для контенту */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок блогу */
+h1.text-center {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Навігація категорій */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.navbar a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Блок статей */
+.article-block {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+.article-block:hover {
+    transform: translateY(-3px);
+}
+
+/* Заголовки статей */
+.article-block h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Дата публікації */
+.article-block h5 {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+/* Опис статті */
+.article-block p {
+    font-size: 1em;
+}
+
+/* Картинки у статтях (якщо будуть) */
+.article-block img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Посилання на всі публікації */
+a h4 {
+    color: #2980b9;
+    text-align: center;
+    margin-top: 30px;
+}
+a h4:hover {
+    text-decoration: underline;
+}
